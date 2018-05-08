@@ -1,0 +1,32 @@
+#!/usr/bin/bash
+
+# File with the installation procedure for setting
+# up my Ubuntu 18 system:
+
+# Update and upgrade:
+sudo apt-get update 
+sudo apt-get upgrade
+
+# Install terminator, obviously
+sudo apt-get install terminator
+
+# Install C and C++ compilers:
+sudo apt-get install build-essential
+
+# Install VLC:
+sudo apt-get install vlc
+
+# Download and install Cmake:
+
+
+# Download and install Sublime Text 3:
+# (instructions from https://www.sublimetext.com/docs/3/linux_repositories.html)
+# - Install the package manager: https://packagecontrol.io/installation
+# - Install latextools: https://latextools.readthedocs.io/en/latest/install/
+#       change user preferences to builder = basic
+# - Install doxygen: package control doxydoxygen
+
+# Install all latex tools needed:
+sudo apt-get install texlive
+sudo apt-get install latexmk
+
