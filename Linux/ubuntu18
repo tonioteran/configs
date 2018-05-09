@@ -16,8 +16,11 @@ sudo apt-get install build-essential
 # Install VLC:
 sudo apt-get install vlc
 
-# Download and install Cmake:
+# install latest gnuplot
+# from sourceforge
 
+# Download and install Cmake:
+# from official website
 
 # Download and install Sublime Text 3:
 # (instructions from https://www.sublimetext.com/docs/3/linux_repositories.html)
@@ -29,4 +32,45 @@ sudo apt-get install vlc
 # Install all latex tools needed:
 sudo apt-get install texlive
 sudo apt-get install latexmk
+
+# Install blender (blender website):
+cd ~/Downloads/
+tar xvjf blender...
+# Copy all files to /opt
+cp /blender /opt/blender -r
+# add blender alias for .bashrc
+
+# Install OpenGL: https://en.wikibooks.org/wiki/OpenGL_Programming/Installation/Linux
+
+# Install VTK:
+# from https://www.vtk.org/download/
+
+# Install OpenCV
+# Problems with libjasper: https://stackoverflow.com/questions/43484357/opencv-in-ubuntu-17-04/44488374#44488374
+# Installation: https://www.pyimagesearch.com/2016/10/24/ubuntu-16-04-how-to-install-opencv/
+#               http://www.codebind.com/linux-tutorials/install-opencv-3-2-ubuntu-18-04-lts-linux/
+# sudo cmake -D BUILD_TIFF=ON -D WITH_CUDA=OFF -D ENABLE_AVX=OFF -D WITH_OPENGL=ON -D WITH_OPENCL=OFF -D WITH_IPP=OFF -D WITH_TBB=ON -D BUILD_TBB=ON -D WITH_EIGEN=OFF -D WITH_V4L=OFF -D WITH_VTK=ON -D BUILD_TESTS=OFF -D INSTALL_PYTHON_EXAMPLES=ON -D PYTHON_EXECUTABLE=/usr/bin/python3 -D BUILD_EXAMPLES=ON -D BUILD_PERF_TESTS=OFF -D CMAKE_BUILD_TYPE=RELEASE -D CMAKE_INSTALL_PREFIX=/usr/local -D OPENCV_EXTRA_MODULES_PATH=/opt/opencv_contrib/modules /opt/opencv/
+
+!!! PROBLEMS!!!
+/opt/opencv_contrib/modules/xfeatures2d/src/boostdesc.cpp:653:20: fatal error: boostdesc_bgm.i: No such file or directory
+           #include "boostdesc_bgm.i"
+                    ^~~~~~~~~~~~~~~~~
+compilation terminated.
+modules/xfeatures2d/CMakeFiles/opencv_xfeatures2d.dir/build.make:80: recipe for target 'modules/xfeatures2d/CMakeFiles/opencv_xfeatures2d.dir/src/boostdesc.cpp.o' failed
+make[2]: *** [modules/xfeatures2d/CMakeFiles/opencv_xfeatures2d.dir/src/boostdesc.cpp.o] Error 1
+CMakeFiles/Makefile2:13454: recipe for target 'modules/xfeatures2d/CMakeFiles/opencv_xfeatures2d.dir/all' failed
+make[1]: *** [modules/xfeatures2d/CMakeFiles/opencv_xfeatures2d.dir/all] Error 2
+Makefile:162: recipe for target 'all' failed
+make: *** [all] Error 2
+
+Check!!!
+
+
+# Install Boost
+
+# Install GTSAM
+
+
+
+
 
