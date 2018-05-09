@@ -65,6 +65,21 @@ make: *** [all] Error 2
 
 Check!!!
 
+# Solution: important components are not being downloaded by cmake, due to an ```invalid protocal``` error.
+# Need to install cmake with https protocol enabled, as per https://github.com/opencv/opencv_contrib/issues/1131
+```bash
+wget --no-check-certificate https://cmake.org/files/v3.11/cmake-3.11.1.tar.gz
+tar xvzf cmake-3.11.1.tar.gz
+cd cmake-3.11.1
+# need to build against system curl to get https support
+# -> install devel packages
+yum -y install curl-devel zlib-devel
+./bootstrap --system-curl
+make && make install
+```
+Complaining about not finding curl... 
+
+
 
 # Install Boost
 
