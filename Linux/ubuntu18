@@ -78,7 +78,52 @@ yum -y install curl-devel zlib-devel
 make && make install
 ```
 Complaining about not finding curl... 
+Fixed by running (https://raspberrypi.stackexchange.com/questions/19513/could-not-find-curl-missing-curl-library-curl-include-dir):
+```bash
+sudo apt-get install libcurl4-openssl-dev
+```
 
+#Works now, but doesn't have python compilers. Following https://www.pyimagesearch.com/2016/10/24/ubuntu-16-04-how-to-install-opencv/ to try and install them.
+
+sudo apt-get install libjpeg8-dev libtiff5-dev libjasper-dev libpng-dev
+sudo apt-get install libavcodec-dev libavformat-dev libswscale-dev libv4l-dev
+sudo apt-get install libxvidcore-dev libx264-dev
+sudo apt-get install libgtk-3-dev
+sudo apt-get install libatlas-base-dev gfortran
+sudo apt-get install python2.7-dev
+sudo apt-get install python3.6-dev
+# Install pip:
+cd ~/Downloads
+curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
+sudo python get-pip.py
+sudo python3 get-pip.py
+# Install python stuff...
+sudo pip3 install numpy
+sudo pip install numpy
+# And one should be good to go to run the cmake with the flags upstairs.
+
+
+
+# 3rd Party libraries used for development:
+# -- Ascent (header only, git)
+mkdir -p ~/repos
+cd ~/repos
+git clone git@github.com:tonioteran/Ascent.git
+#    move to /usr/local/include/
+cp Ascent/ascent /usr/local/include/ -r
+# -- Eigen goes here as well???
+
+
+
+
+
+
+##
+## Aliases:
+##
+alias blender='/opt/blender/blender'
+alias repos='cd ~/repos'
+alias gitstatus='~/repos/configs/Linux/gitstatus.sh'
 
 
 # Install Boost
