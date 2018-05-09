@@ -1,0 +1,92 @@
+[global_config]
+  suppress_multiple_term_dialog = True
+[keybindings]
+[layouts]
+  [[default]]
+    [[[child0]]]
+      fullscreen = True
+      last_active_term = 29b6dd73-e599-4c4a-b2ab-ea5b092c18c5
+      last_active_window = True
+      maximised = True
+      order = 0
+      parent = ""
+      position = 0:0
+      size = 1920, 1080
+      title = tonio@tonio-u18-P50: ~
+      type = Window
+    [[[child1]]]
+      order = 0
+      parent = child0
+      position = 958
+      ratio = 0.500261096606
+      type = HPaned
+    [[[child3]]]
+      order = 1
+      parent = child1
+      position = 538
+      ratio = 0.500465116279
+      type = VPaned
+    [[[child5]]]
+      order = 1
+      parent = child3
+      position = 433
+      ratio = 0.807835820896
+      type = VPaned
+    [[[child7]]]
+      order = 1
+      parent = child5
+      position = 478
+      ratio = 0.5
+      type = HPaned
+    [[[terminal2]]]
+      command = ""
+      directory = ~/repos
+      order = 0
+      parent = child1
+      profile = default
+      type = Terminal
+      uuid = 29b6dd73-e599-4c4a-b2ab-ea5b092c18c5
+    [[[terminal4]]]
+      directory = ~/repos
+      order = 0
+      parent = child3
+      profile = default
+      type = Terminal
+      uuid = aeb100e0-a3f0-46a2-8a5d-0c4a8c9a3f53
+    [[[terminal6]]]
+      directory = ~/repos
+      order = 0
+      parent = child5
+      profile = default
+      type = Terminal
+      uuid = 4d242fa9-5d0a-4c82-b846-2b03433599c1
+    [[[terminal8]]]
+      directory = ~/repos
+      order = 0
+      parent = child7
+      profile = launchers
+      type = Terminal
+      uuid = 95916a72-00a8-4373-bbc0-b9fdcc820699
+    [[[terminal9]]]
+      directory = ~/repos
+      order = 1
+      parent = child7
+      profile = launchers
+      type = Terminal
+      uuid = d2ed69f0-3b69-467b-9cbb-5336d2f20b8f
+  [[dev]]
+    [[[child1]]]
+      directory = ""
+      parent = window0
+      profile = default
+      type = Terminal
+    [[[window0]]]
+      parent = ""
+      type = Window
+[plugins]
+[profiles]
+  [[default]]
+    cursor_color = "#aaaaaa"
+  [[launchers]]
+    cursor_color = "#aaaaaa"
+    foreground_color = "#e53c00"
