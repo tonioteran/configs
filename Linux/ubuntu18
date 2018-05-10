@@ -112,6 +112,8 @@ git clone git@github.com:tonioteran/Ascent.git
 #    move to /usr/local/include/
 cp Ascent/ascent /usr/local/include/ -r
 # -- Eigen goes here as well???
+# go to the following website: http://eigen.tuxfamily.org/index.php?title=Main_Page#Download
+# installed via CMake!
 
 
 
