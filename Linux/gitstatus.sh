@@ -11,16 +11,28 @@ for e in $(find . -maxdepth 1 -type d)
 do
 	if [ "$e" != "." ] # ignore the current directory
 	then
-		cd $e
-		if [ "$(git status | grep "nothing to commit")" == "" ] # if there's something to commit
+		cd $e # enter the directory
+		# check if the directory is actually a git:
+		isGit=0
+		for se in $(find . -maxdepth 1 -type d)
+		do
+			if [ "${se}" == "./.git" ]
+			then
+				isGit=1
+			fi
+		done
+		if [ "${isGit}" == "1" ]
 		then
-			echo " "
-			echo "  ------------------------- "
-			echo "  -       $e  "
-			echo "  ------------------------- "
-			echo " "
-			git status
-			echo " "
+			if [ "$(git status | grep "nothing to commit")" == "" ] # if there's something to commit
+			then
+				echo " "
+				echo "  ------------------------- "
+				echo "  -       $e  "
+				echo "  ------------------------- "
+				echo " "
+				git status
+				echo " "
+			fi
 		fi
 		cd ..
 	fi
