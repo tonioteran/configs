@@ -102,6 +102,8 @@ sudo pip3 install numpy
 sudo pip install numpy
 # And one should be good to go to run the cmake with the flags upstairs.
 
+# Install convex optimization stuff:
+sudo pip3 install cvxopt
 
 
 # 3rd Party libraries used for development:
