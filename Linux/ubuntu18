@@ -117,8 +117,11 @@ cp Ascent/ascent /usr/local/include/ -r
 # go to the following website: http://eigen.tuxfamily.org/index.php?title=Main_Page#Download
 # installed via CMake!
 
-
-
+# Install CUDA????
+# Successful on Ubuntu18, but can't run the sample examples because of the incorrect OS (!= Ubuntu 16).
+# The above was for Ubuntu14, with Ubuntu18 there's glut error.
+sudo apt-get install freeglut3 freeglut3-dev
+# WORKS!
 
 
 
