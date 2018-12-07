@@ -18,8 +18,9 @@ sudo apt-get install exfat-fuse exfat-utils
 # activity monitor
 sudo apt-get install htop
 
-# install curl
+# install curl and ruby
 sudo apt-get install libcurl4-openssl-dev
+sudo apt-get install ruby rubygems vim-nox
 
 # install dev tools
 sudo apt-get install unzip pkg-config
