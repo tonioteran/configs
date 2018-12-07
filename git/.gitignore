@@ -52,4 +52,8 @@ build/
 *.mp4
 *.jpg
 
+# Blender #
+###########
+*.blend
+
 

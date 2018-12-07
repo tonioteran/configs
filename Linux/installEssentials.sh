@@ -12,6 +12,9 @@ sudo apt-get update
 # install C and C++ compilers
 sudo apt-get install build-essential
 
+# enable compatibility with other filesystem types
+sudo apt-get install exfat-fuse exfat-utils
+
 # activity monitor
 sudo apt-get install htop
 
@@ -61,7 +64,6 @@ sudo apt-get install libgl1-mesa-dev
 sudo apt-get install libglew-dev libsdl2-dev libsdl2-image-dev libglm-dev libfreetype6-dev
 sudo apt install mesa-utils
 sudo apt-get install freeglut3 freeglut3-dev
-
 
 # install Eigen
 cd /usr/local/include
