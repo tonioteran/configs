@@ -20,7 +20,7 @@ sudo apt-get install htop
 
 # install curl and ruby
 sudo apt-get install libcurl4-openssl-dev
-sudo apt-get install ruby rubygems vim-nox
+sudo apt-get install ruby rubygems ruby-dev vim-nox
 
 # install dev tools
 sudo apt-get install unzip pkg-config
