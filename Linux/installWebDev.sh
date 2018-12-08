@@ -17,3 +17,4 @@ sudo apt-get install npm
 
 # install Vue
 npm install vue
+sudo npm install -g typescript
