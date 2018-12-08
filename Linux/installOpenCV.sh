@@ -5,6 +5,8 @@
 # Contents:
 # ######################
 
+#!/usr/bin/env bash
+
 # install image and video I/O libraries
 sudo apt-get install libjpeg-dev libpng-dev libtiff-dev
 sudo apt-get install libavcodec-dev libavformat-dev libswscale-dev libv4l-dev
