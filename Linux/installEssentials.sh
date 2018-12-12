@@ -79,5 +79,6 @@ cd /usr/local/include
 sudo rm 3.3.5.tar.gz
 sudo rm -rf eigen-eigen-b3f3d4950030/
 
-
+# install ffmpeg for video management
+sudo apt-get install ffmpeg
 
