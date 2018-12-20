@@ -38,4 +38,10 @@ sudo make install
 sudo ldconfig
 
 
+# get gnuplot iostream for plotting from c++
+cd ~/repos
+git clone https://github.com/dstahlke/gnuplot-iostream.git
+cd gnuplot-iostream
+make
+cd ~/
 
