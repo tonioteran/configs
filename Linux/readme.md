@@ -28,6 +28,14 @@ Scripts that are not included within the master installer are the following:
 
 Clones the Github repo, installs dependencies, and installs the driver for the Corsair keyboard. File: `installCorsair.sh`.
 
+## Installation manuals (hehe)
+
+### Inkscape
+
+I like to have my inkscape equipped with LaTeX capabilities. Since I had a bit 
+of trouble the first time I correctly installed it, I chose to document the way
+in which I had success. Instructions are to be found at `./inkscape.md`.
+
 
 
 
