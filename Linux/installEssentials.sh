@@ -83,3 +83,6 @@ sudo rm -rf eigen-eigen-b3f3d4950030/
 # install ffmpeg for video management
 sudo apt-get install ffmpeg
 
+# install tbb package
+sudo apt-get install libtbb-dev
+
