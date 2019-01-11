@@ -86,3 +86,8 @@ sudo apt-get install ffmpeg
 # install tbb package
 sudo apt-get install libtbb-dev
 
+# install geographiclib for geodesic problems
+sudo apt-get install libgeographic-dev
+
+# install doxygen
+sudo apt-get install doxygen
