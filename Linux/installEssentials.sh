@@ -94,3 +94,4 @@ sudo apt-get install doxygen
 
 # install dependencies for vmail
 sudo apt-get install libsqlite3-dev sqlite3
+sudo gem install vmail
