@@ -91,3 +91,6 @@ sudo apt-get install libgeographic-dev
 
 # install doxygen
 sudo apt-get install doxygen
+
+# install dependencies for vmail
+sudo apt-get install libsqlite3-dev sqlite3
