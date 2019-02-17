@@ -28,6 +28,11 @@ ehthumbs.db
 *.blg
 *.toc
 
+# spacemacs #
+#############
+auto/
+
+
 # PyTorch #
 ###########
 *.pt
