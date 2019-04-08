@@ -27,6 +27,9 @@ ehthumbs.db
 *.bbl
 *.blg
 *.toc
+*.dvi
+*.lof
+*.lot
 
 # spacemacs #
 #############
@@ -61,5 +64,9 @@ build/
 # Blender #
 ###########
 *.blend
+
+# MATLAB #
+##########
+*.m~
 
 
