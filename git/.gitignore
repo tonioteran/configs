@@ -30,6 +30,7 @@ ehthumbs.db
 *.dvi
 *.lof
 *.lot
+main.pdf
 
 # spacemacs #
 #############
