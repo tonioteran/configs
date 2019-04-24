@@ -19,8 +19,7 @@ do
 		for se in $(find . -maxdepth 1 -type d)
 		do
       echo ${se}
-			if [ "${se}" == './.git' ]
-			then
+			if [ "${se}" = './.git' ]; then
 				isGit=1
 			fi
 		done
