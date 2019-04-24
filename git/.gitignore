@@ -27,6 +27,16 @@ ehthumbs.db
 *.bbl
 *.blg
 *.toc
+*.dvi
+*.lof
+*.lot
+main.pdf
+
+# spacemacs #
+#############
+auto/
+.#*
+
 
 # PyTorch #
 ###########
@@ -55,5 +65,9 @@ build/
 # Blender #
 ###########
 *.blend
+
+# MATLAB #
+##########
+*.m~
 
 
