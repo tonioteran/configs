@@ -16,15 +16,12 @@ do
 		isGit=0
 		for se in $(find . -maxdepth 1 -type d)
 		do
-			if [ "${se}" == "./.git" ]
-			then
+			if [ "${se}" = "./.git" ]; then
 				isGit=1
 			fi
 		done
-		if [ "${isGit}" == "1" ]
-		then
-			if [ "$(git status | grep "nothing to commit")" == "" ] # if there's something to commit
-			then
+		if [ "${isGit}" = "1" ]; then
+			if [ "$(git status | grep "nothing to commit")" == "" ]; then # if there's something to commit
 				echo " "
 				echo "  ------------------------- "
 				echo "  -       $e  "
