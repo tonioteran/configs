@@ -37,6 +37,10 @@ main.pdf
 auto/
 .#*
 
+# Python #
+##########
+__pycache__/
+
 
 # PyTorch #
 ###########
