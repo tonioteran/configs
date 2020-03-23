@@ -78,4 +78,9 @@ build/
 #######
 *.bag
 
+# Spacemacs file navigation #
+#############################
+GTAGS
+GRTAGS
+GPATH
 
