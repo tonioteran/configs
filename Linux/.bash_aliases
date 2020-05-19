@@ -2,7 +2,7 @@
 alias blender='/opt/blender/blender'
 
 # random
-alias repos='cd /home/tonio/repos/'
+alias repos='cd /home/${USER}/repos/'
 alias gitstatus='~/repos/configs/Linux/gitstatus.sh'
 alias mitvpn='~/repos/configs/Linux/vpnduo.sh'
 alias spheres='cd ~/repos/ssl/spheres/trunk'
@@ -14,3 +14,9 @@ alias catkinws='cd ~/catkin_ws'
 alias dutws='cd ~/DUT18D_ws'
 alias sourcedutws='source ~/DUT18D_ws/devel/setup.bash'
 alias isk='inkscape'
+
+# TumbleDock project specific.
+alias absource='source ~/repos/tumbledock/freeflyer-build/devel/setup.bash'
+alias abdir='cd ~/repos/tumbledock/freeflyer-shared-td/'
+alias abcmake='~/repos/tumbledock/freeflyer-shared-td/develop/mit-slam/astrobee-cmake.sh'
+alias abmake='~/repos/tumbledock/freeflyer-shared-td/develop/mit-slam/astrobee-make.sh'
