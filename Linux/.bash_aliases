@@ -16,7 +16,8 @@ alias sourcedutws='source ~/DUT18D_ws/devel/setup.bash'
 alias isk='inkscape'
 
 # TumbleDock project specific.
-alias absource='source ~/repos/tumbledock/freeflyer-build/devel/setup.bash'
-alias abdir='cd ~/repos/tumbledock/freeflyer-shared-td/'
-alias abcmake='~/repos/tumbledock/freeflyer-shared-td/develop/mit-slam/astrobee-cmake.sh'
-alias abmake='~/repos/tumbledock/freeflyer-shared-td/develop/mit-slam/astrobee-make.sh'
+alias absource='source ~/repos/astrobee/freeflyer-build/devel/setup.bash'
+alias abdir='cd ~/repos/astrobee/freeflyer-shared-td/'
+alias abbuild='cd ~/repos/astrobee/freeflyer-build/'
+alias abcmake='~/repos/astrobee/freeflyer-shared-td/develop/roam-ros/mit-slam/astrobee-cmake.sh'
+alias abmake='~/repos/astrobee/freeflyer-shared-td/develop/roam-ros/mit-slam/astrobee-make.sh'
